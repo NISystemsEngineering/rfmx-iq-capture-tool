@@ -8,6 +8,7 @@ A simple command line tool to fetch raw IQ data from RFmx measurement configurat
 3) Call the **RFmxIQCaptureTool**; see the usage instructions below.
 4) Follow the instructions in the command prompt window to run the measurements configured in the file and save them to disk
 ![Usage](/img/CommandLineUsage.png)
+5) One file will be saved per signal configured in the TDMS configuration file that you choose to acquire. The data will be saved as interleaved IQ data in a text file.
 
 # Usage
 - Output IQ data in the working directory for an RFmx configuration named *SampleConfig.tdms* and an instrument named *5840*:
