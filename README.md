@@ -25,7 +25,7 @@ A simple command line tool to fetch raw IQ data from RFmx measurement configurat
 
   `-o, --output`    The output folder for the IQ data.
 
-  `--help`          Display this help screen.
+  `--help`          Display the help screen.
 
   `--version`       Display version information.
 
