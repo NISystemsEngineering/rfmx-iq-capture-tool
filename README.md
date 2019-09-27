@@ -7,6 +7,7 @@ A simple command line tool to fetch raw IQ data from RFmx measurement configurat
 ![RFmxSFP](/img/SaveConfigurationRFmx.png)
 3) Call the **RFmxIQCaptureTool**; see the usage instructions below.
 4) Follow the instructions in the command prompt window to run the measurements configured in the file and save them to disk
+![Usage](/img/CommandLineUsage.png)
 
 # Usage
 - Output IQ data in the working directory for an RFmx configuration named *SampleConfig.tdms* and an instrument named *5840*:
