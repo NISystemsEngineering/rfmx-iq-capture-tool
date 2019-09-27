@@ -11,11 +11,11 @@ A simple command line tool to fetch raw IQ data from RFmx measurement configurat
 # Usage
 - Output IQ data in the working directory for an RFmx configuration named *SampleConfig.tdms* and an instrument named *5840*:
 
-`RFmxIQCaptureTool --path SampleConfig.tdms --instr 5840`
+    `RFmxIQCaptureTool --path SampleConfig.tdms --instr 5840`
   
 - Output IQ data to *..\Files* for an RFmx configuration named *SampleConfig.tdms* and an instrument named *5840*:
   
-  `RFmxIQCaptureTool --path SampleConfig.tdms --instr 5840 --output ..\Files`
+    `RFmxIQCaptureTool --path SampleConfig.tdms --instr 5840 --output ..\Files`
 
 ### Arguments
   `-i, --instr`     **Required**. The instrument name to use for acquisition.
